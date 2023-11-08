@@ -1,0 +1,141 @@
+/* Maryam Khalid */
+
+/* External CSS */
+
+/* Additional Styles for Existing Elements */
+
+/* Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  /*background-color: #f8f8f8;   /* Background color using Hexcode */
+  margin: 0;
+  padding: 0;
+
+  /* Set background image */
+  background-image: url("bg2.avif");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  /* Header Styles */
+  background-color: #333; /*Hexcode*/
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  /* Heading 1 Styles */
+  font-size: 2em;
+  margin: 0;
+}
+
+h3 {
+  /* Heading 3 Styles */
+  color: #232222;
+}
+
+nav {
+  /* Navigation Styles */
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+  padding: 10px;
+}
+
+nav a {
+  /* Navigation Links Styles */
+  color: rgba(255, 255, 255, 0.8); /* Text color using RGBA */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  /* Section Styles */
+  margin: 20px;
+}
+
+section h2 {
+  /* Section Heading 2 Styles */
+  color: #333;
+}
+
+ul {
+  /* Unordered List Styles */
+  list-style-type: square;
+  padding: 4;
+}
+
+li {
+  /* List Item Styles */
+  margin-bottom: 10px;
+}
+
+a {
+  /* Anchor (Link) Styles */
+  text-decoration: none;
+}
+
+/* Styles for class social link */
+.SocialLinks {
+  font-weight: bold;
+}
+
+/* Styles for id contact-info */
+#contact-info {
+  font-weight: bold;
+}
+
+aside {
+  background-color: #ddd;
+  padding: 20px;
+  width: 340px;
+  /* centre align */
+  /* margin-left: auto;
+    margin-right:auto; */
+  margin-bottom: 30px;
+}
+
+aside img {
+  display: block;
+  max-width: 50%; /* Adjusted the percentage to control the maximum width of the image */
+  height: auto;
+  border-radius: 5%;
+  margin: 0 auto;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  padding-top: 10px;
+}
+
+/* Styles for Details Element */
+details {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #232222;
+  border-radius: 5px;
+}
+
+summary {
+  font-weight: bold;
+}
+
+details[open] {
+  background-color: #f0f0f0;
+}
+
+footer {
+  background-color: hsla(0, 0%, 20%, 0.8); /* HSLA */
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
